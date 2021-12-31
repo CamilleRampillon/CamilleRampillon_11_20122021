@@ -1,6 +1,6 @@
 // Data used for the dropdown menus
 
-export const rulesAboutDropDownList = [
+export const dropDownList = [
 	{
 		"id": "1",
 		"title": "Fiabilité",
@@ -14,7 +14,7 @@ export const rulesAboutDropDownList = [
 		{
 		"id": "3",
 		"title": "Service",
-		"content": "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
+		"content": "Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question."
 	},
 		{
 		"id": "4",

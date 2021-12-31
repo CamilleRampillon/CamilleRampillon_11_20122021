@@ -1,7 +1,7 @@
 import { Component } from "react"
 import Banner from '../components/Banner'
 import aboutBanner from '../assets/about_image.jpg'
-import { rulesAboutDropDownList} from '../data/rulesAboutDropDownData.js'
+import { dropDownList } from '../data/aboutDropDownData.js'
 import DropDown from '../components/DropDown'
 import '../styles/pages/About.css'
 
@@ -23,8 +23,8 @@ export default class About extends Component {
               <Banner picture={aboutBanner} alternate='Mountains'/>
               <h1 className='sr-only'>A Propos</h1>
           </span>     
-            {rulesAboutDropDownList.map((data) => (
-            <DropDown key={data.id} dropdownWidth='DropdownAboutPage' dropdownHeight='rulesAboutDropDownList' title={data.title} content={data.content}/>
+          {dropDownList.map((data) => (
+            <DropDown key={data.id} dropdownWidth='DropdownAboutPage' dropdownHeight='dropDownListAbout' title={data.title} content={data.content}/>
             ))}   
         </div>
       </main>
